@@ -33,7 +33,6 @@ nav {
   border-style: solid;
   border-color: #fff;
   z-index: 1000;
-  width: 100%;
   background-color: #0a3641;
 }
 
@@ -78,16 +77,13 @@ nav h2 {
   margin-top: 10px;
 }
 
-nav li {
-  width: 100%;
+nav li a {
   border-style: solid none;
   border-color: #fff;
   border-width: 1px;
   font-size: 2rem;
-  margin: ;
 }
 
-nav li:hover,
 nav li a:hover {
   background-color: #fff;
   color: #0a3641;
@@ -107,7 +103,6 @@ nav img {
   display: grid;
   background-color: #0a3641;
   grid-column: -1/1;
-  justify-self: center;
   width: 100%;
   padding: 4px 0px;
   height: 100%;
@@ -132,8 +127,18 @@ nav img {
 /*Global styles*/
 
 body {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   margin: 0px;
+}
+
+.site-wrapper {
+  max-width: 10000px;
+  display: grid;
+  height: 100vh;
+  margin: 1px;
+  grid-template-rows: auto 1fr auto;
 }
 
 a {
@@ -176,14 +181,12 @@ p {
   border-color: #fff;
   border-radius: 10px;
   text-transform: uppercase;
-  padding: 1% 3%;
-  font-size: 3vw;
-  min-width: 200px;
+  padding: 0.5em 2.5em;
+  font-size: 1rem;
+  min-width: 120px;
   justify-content: center;
-}
-
-.cta-main__heading {
-  margin: 110px;
+  position: absolute;
+  top: 50%;
 }
 
 .cta-main:hover,
@@ -192,23 +195,19 @@ p {
   color: #0a3641;
 }
 
-.home-new_arrivals .cta-main,
-.home-outlet .cta-main {
-  margin: 25%;
-}
-
 /* main content */
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .home-heading__text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  margin-top: 0px;
 }
 
 .home-outlet__text,
@@ -245,24 +244,31 @@ main {
 .home-heading,
 .home-new_arrivals,
 .home-outlet {
+  position: relative;
   margin: 5px 0px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  justify-content: space-between;
+}
+
+.home-heading__text p {
+  font-size: 1rem;
+}
+
+.home-heading__text h1 {
+  font-size: 2rem;
 }
 
 /*footer*/
 
 footer {
   background-color: #0a3641;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 5px 0px;
+  padding: 5px;
 }
 
 footer a {
@@ -284,13 +290,26 @@ footer li {
   .home-heading,
   .home-new_arrivals,
   .home-outlet {
-    min-height: 275px;
+    min-height: 350px;
   }
 
-  /*Nav media 600*/
+  .cta-main {
+    font-size: 1.5rem;
+    min-width: 7.4em;
+  }
+
+  .home-heading__text p {
+    font-size: 1.5rem;
+  }
+
+  .home-heading__text h1 {
+    font-size: 3.5rem;
+  }
+
+  /*Nav media 650*/
 
   header {
-    grid-template-rows: 4fr 1fr 2fr;
+    grid-template-rows: auto;
   }
 
   .top-logo {
@@ -299,17 +318,12 @@ footer li {
   }
 
   nav {
-    display: grid;
+    display: flex;
     grid-column: -1/1;
     position: relative;
     border-style: none;
     height: 100%;
-  }
-
-  nav a {
-    display: flex;
     justify-content: center;
-    padding: 12%;
   }
 
   nav ul label,
@@ -323,22 +337,19 @@ footer li {
   nav ul {
     flex-direction: row;
     align-items: center;
-    margin: 0px 50px 0px 0px;
-  }
-
-  nav li {
-    font-size: 14px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    margin: 5px;
-    padding: 5px 5px;
-    text-align: center;
+    flex-wrap: wrap;
+    margin: 3px 25px;
   }
 
   nav li a {
     text-transform: uppercase;
     font-weight: bold;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 2px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
   }
 
   .shopping-cart {
@@ -351,6 +362,7 @@ footer li {
     min-width: 35px;
     margin-left: 15px;
     margin-right: 5px;
+    max-width: 40px;
   }
 }
 
@@ -358,25 +370,13 @@ footer li {
   .home-heading,
   .home-new_arrivals,
   .home-outlet {
-    min-height: 350px;
-  }
-
-  .home-heading__text p {
-    font-size: 2vw;
-  }
-
-  .home-heading__text h1 {
-    font-size: 4vw;
+    min-height: 400px;
   }
 
   /*header media 800*/
 
   header {
     grid-template-rows: 2fr 0.5fr 0.5fr;
-  }
-
-  nav a {
-    padding: 4%;
   }
 
   .top-logo__desktop {
@@ -388,43 +388,23 @@ footer li {
     display: none;
   }
 
-  .cta-main {
-    min-width: 350px;
-  }
-
   /*Main content 800*/
 
   main {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    max-height: 1000px;
   }
 
   .home-heading {
     display: flex;
     grid-column: -1/1;
   }
-}
 
-@media (min-width: 1100px) {
   .cta-main {
-    font-size: 2vw;
-  }
-
-  /* header media 1000*/
-
-  #search-field {
-    width: 40%;
-    justify-self: left;
-    margin-left: 47px;
-  }
-
-  nav a {
-    font-size: 1vw;
-  }
-
-  .marketing-text__bold,
-  .marketing-text {
-    display: flex;
+    padding: 0.5em 2em;
   }
 }
+
+@media (min-width: );
