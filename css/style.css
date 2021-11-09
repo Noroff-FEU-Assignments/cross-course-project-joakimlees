@@ -128,7 +128,7 @@ nav img {
 
 body {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr auto;
   height: 100vh;
   margin: 0px;
 }
@@ -155,14 +155,40 @@ p {
   font-weight: lighter;
 }
 
-.marketing-text__bold,
-.marketing-text {
-  display: none;
+.marketing-text__wrapper {
+  display: flex;
+  margin-left: 25px;
+}
+
+.product-marketing-text__wrapper {
+  color: #fff;
+  background-color: rgba(10, 54, 65, 80%);
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.marketing-text,
+.marketing-text__bold {
   font-family: "open sans", Verdana, Tahoma, "Trebuchet MS", Arial, Helvetica;
+}
+
+.home-marketing-text__bold,
+.home-marketing-text {
+  display: none;
+  margin: 5px 10px 5px 1px;
 }
 
 .marketing-text__bold {
   font-weight: bold;
+}
+
+.products-marketing-text__bold,
+.products-marketing-text {
+  display: flex;
+  margin: 5px 5px 5px 1px;
 }
 
 .cta-main {
@@ -173,12 +199,21 @@ p {
   border-color: #fff;
   border-radius: 10px;
   text-transform: uppercase;
-  padding: 0.5em 2.5em;
-  font-size: 1rem;
-  min-width: 120px;
   justify-content: center;
   position: absolute;
   top: 50%;
+}
+
+.cta-home {
+  padding: 0.5em 2.5em;
+  font-size: 1rem;
+  min-width: 120px;
+}
+
+.cta-products {
+  padding: 0.2em 1.5em;
+  min-width: 4.2em;
+  font-size: 1rem;
 }
 
 nav li a:hover,
@@ -280,161 +315,31 @@ footer li {
   margin-right: 30px;
 }
 
-@media (min-width: 650px) {
-  .home-heading,
-  .home-new_arrivals,
-  .home-outlet {
-    min-height: 350px;
-  }
+/*Product page*/
 
-  .cta-main {
-    font-size: 1.5rem;
-    min-width: 7.4em;
-  }
-
-  .home-heading__text p {
-    font-size: 1.5rem;
-  }
-
-  .home-heading__text h1 {
-    font-size: 3.5rem;
-  }
-
-  /*Nav media 650*/
-
-  header {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
-  }
-
-  .top-logo {
-    grid-column: 3;
-    width: 60%;
-    justify-self: center;
-  }
-
-  nav {
-    display: flex;
-    grid-column: 1/5;
-    position: relative;
-    border-style: none;
-    height: 100%;
-    justify-content: start;
-  }
-
-  nav ul label,
-  nav ul img,
-  nav ul h2,
-  .nav-closer,
-  .hamburger-menu__label {
-    display: none;
-  }
-
-  nav ul {
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2px 10px;
-    justify-content: start;
-  }
-
-  nav li a {
-    text-transform: uppercase;
-    font-weight: bold;
-    border-style: solid;
-    border-radius: 5%;
-    border-width: 2px;
-    margin: 5px;
-    padding: 5px 10px;
-    font-size: 1.5rem;
-  }
-
-  .shopping-cart {
-    display: none;
-  }
-
-  .shopping-cart__white-wrapper {
-    display: flex;
-    justify-content: center;
-    background-color: #0a3641;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 1px;
-  }
-
-  .shopping-cart__white {
-    display: flex;
-    max-height: 2.5em;
-    margin: 0px 15px;
-  }
-
-  .shopping-cart__white-wrapper a {
-    color: #fff;
-    font-style: italic;
-    font-size: 1rem;
-    margin: 0px 10px 2px 10px;
-  }
+.products-heading {
+  display: flex;
+  flex-direction: row;
+  min-height: 150px;
+  margin-top: 5px;
 }
 
-@media (min-width: 800px) {
-  .home-heading,
-  .home-new_arrivals,
-  .home-outlet {
-    min-height: 500px;
-  }
+.products-heading__img-men {
+  background-image: url(../images/men-image.jpg);
+}
 
-  /*Main content 800*/
+.products-heading__img-women {
+  background-image: url(../images/women-image.jpg);
+}
 
-  .home-heading {
-    display: flex;
-    grid-column: -1/1;
-  }
-
-  .cta-main {
-    padding: 0.5em 2em;
-  }
-
-  main {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    max-height: 1250px;
-  }
-
-  .home-outlet__text,
-  .home-new_arrivals__text {
-    display: flex;
-  }
-
-  .marketing-text__bold,
-  .marketing-text {
-    display: flex;
-    font-family: "open sans", Verdana, Tahoma, "Trebuchet MS", Arial, Helvetica;
-    margin: 5px 10px 5px 1px;
-  }
-
-  .marketing-text__wrapper {
-    display: flex;
-    margin-left: 25px;
-  }
-
-  /*header media 800*/
-
-  .top-logo__desktop {
-    display: grid;
-    grid-column: -1/1;
-    width: 60%;
-    justify-self: center;
-  }
-
-  .top-logo {
-    display: none;
-  }
-
-  #search-field {
-    width: 40%;
-    justify-self: start;
-    margin-left: 15px;
-  }
+.products-heading__img-women,
+.products-heading__img-men {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
