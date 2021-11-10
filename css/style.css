@@ -44,6 +44,7 @@ nav,
 .shopping-cart {
   margin: 25px;
   width: 25%;
+  max-width: 50px;
 }
 
 .shopping-cart__white {
@@ -182,7 +183,7 @@ p {
   margin-left: 25px;
 }
 
-.product-marketing-text__wrapper {
+.store-marketing-text__wrapper {
   color: #fff;
   background-color: rgba(10, 54, 65, 80%);
   font-size: 0.5rem;
@@ -208,8 +209,8 @@ p {
   font-weight: bold;
 }
 
-.products-marketing-text__bold,
-.products-marketing-text {
+.store-marketing-text__bold,
+.store-marketing-text {
   display: flex;
   margin: 5px 5px 5px 1px;
 }
@@ -345,23 +346,29 @@ footer li {
 
 /*Product page*/
 
-.products-heading {
+.store-heading,
+.store-heading__img-new-arrivals {
   display: flex;
   flex-direction: row;
   min-height: 200px;
   margin-top: 5px;
 }
 
-.products-heading__img-men {
+.store-heading__img-men {
   background-image: url(../images/men-image.jpg);
 }
 
-.products-heading__img-women {
+.store-heading__img-women {
   background-image: url(../images/women-image.jpg);
 }
 
-.products-heading__img-women,
-.products-heading__img-men {
+.store-heading__img-new-arrivals {
+  background-image: url(../images/new-arrivals.jpg);
+}
+
+.store-heading__img-women,
+.store-heading__img-men,
+.store-heading__img-new-arrivals {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,18 +379,32 @@ footer li {
   align-items: center;
 }
 
+.store-heading__img-new-arrivals h1 {
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: rgba(10, 54, 65, 80%);
+  align-self: start;
+  margin: 25px 0px;
+  text-transform: uppercase;
+}
+
+.store-heading__img-new-arrivals .store-marketing-text__wrapper .store-marketing-text__bold {
+  margin: 0px 3px;
+}
+
 /*Products main heading*/
 
-.main-products {
+.store-products {
   position: relative;
 }
 
-.main-products h1 {
+.store-products h1 {
   font-size: 2.5rem;
   margin: 5px auto 20px 5px;
 }
 
-.main-products h2 {
+.store-products h2 {
   display: inline-block;
   color: #34665b;
 }
