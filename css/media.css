@@ -209,6 +209,7 @@
     position: relative;
     max-height: 350px;
     border-style: none solid;
+    grid-column: 1;
   }
 
   .filters-menu__label {
