@@ -97,12 +97,27 @@
 
   .top-logo__desktop {
     display: flex;
-    grid-column: 3;
     justify-content: center;
     height: 5em;
   }
 
-  .top-logo {
+  .top-logo__checkout-desktop {
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .top-logo__desktop {
+    grid-column: 3;
+  }
+
+  .top-logo__checkout-desktop {
+    grid-column: 2;
+  }
+
+  .top-logo,
+  .top-logo__checkout {
     display: none;
   }
 
