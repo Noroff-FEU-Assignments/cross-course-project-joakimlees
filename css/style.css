@@ -347,7 +347,10 @@ footer li {
 /*Product page*/
 
 .store-heading,
-.store-heading__img-new-arrivals {
+.store-heading__img-new-arrivals,
+.store-heading__img-outlet,
+.store-heading__img-men,
+.store-heading__img-women {
   display: flex;
   flex-direction: row;
   min-height: 200px;
@@ -366,9 +369,18 @@ footer li {
   background-image: url(../images/new-arrivals.jpg);
 }
 
+.store-heading__img-outlet {
+  background-image: url(../images/outlet-image.jpg);
+}
+
+.store-heading__img-men {
+  background-image: url(../images/men-image.jpg);
+}
+
 .store-heading__img-women,
 .store-heading__img-men,
-.store-heading__img-new-arrivals {
+.store-heading__img-new-arrivals,
+.store-heading__img-outlet {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -379,7 +391,10 @@ footer li {
   align-items: center;
 }
 
-.store-heading__img-new-arrivals h1 {
+.store-heading__img-new-arrivals h1,
+.store-heading__img-outlet h1,
+.store-heading__img-men h1,
+.store-heading__img-women h1 {
   font-size: 1.5rem;
   padding: 10px 30px;
   color: #fff;
@@ -389,7 +404,10 @@ footer li {
   text-transform: uppercase;
 }
 
-.store-heading__img-new-arrivals .store-marketing-text__wrapper .store-marketing-text__bold {
+.store-heading__img-new-arrivals .store-marketing-text__wrapper .store-marketing-text__bold,
+.store-heading__img-outlet .store-marketing-text__wrapper .store-marketing-text__bold,
+.store-heading__img-men .store-marketing-text__wrapper .store-marketing-text__bold,
+.store-heading__img-women .store-marketing-text__wrapper .store-marketing-text__bold {
   margin: 0px 3px;
 }
 

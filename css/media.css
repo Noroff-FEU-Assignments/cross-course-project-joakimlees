@@ -25,7 +25,10 @@
   }
 
   .store-heading,
-  .store-heading__img-new-arrivals {
+  .store-heading__img-new-arrivals,
+  .store-heading__img-outlet,
+  .store-heading__img-men,
+  .store-heading__img-women {
     min-height: 250px;
   }
 
@@ -34,7 +37,10 @@
     height: 50px;
   }
 
-  .store-heading__img-new-arrivals h1 {
+  .store-heading__img-new-arrivals h1,
+  .store-heading__img-outlet h1,
+  .store-heading__img-men h1,
+  .store-heading__img-women h1 {
     font-size: 2rem;
   }
 
@@ -179,13 +185,19 @@
 
   /*products page 800*/
 
-  .store-heading__img-new-arrivals h1 {
+  .store-heading__img-new-arrivals h1,
+  .store-heading__img-outlet h1,
+  .store-heading__img-men h1,
+  .store-heading__img-women h1 {
     font-size: 3.5rem;
     margin: 50px 0px;
   }
 
   .store-heading,
-  .store-heading__img-new-arrivals {
+  .store-heading__img-new-arrivals,
+  .store-heading__img-outlet,
+  .store-heading__img-men,
+  .store-heading__img-women {
     min-height: 350px;
   }
 
