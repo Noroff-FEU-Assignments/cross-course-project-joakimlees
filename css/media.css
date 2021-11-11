@@ -28,7 +28,8 @@
   .store-heading__img-new-arrivals,
   .store-heading__img-outlet,
   .store-heading__img-men,
-  .store-heading__img-women {
+  .store-heading__img-women,
+  .about-heading__img {
     min-height: 250px;
   }
 
@@ -195,7 +196,8 @@
   .store-heading__img-new-arrivals,
   .store-heading__img-outlet,
   .store-heading__img-men,
-  .store-heading__img-women {
+  .store-heading__img-women,
+  .about-heading__img {
     min-height: 350px;
   }
 
