@@ -132,6 +132,8 @@ nav img,
 }
 
 .shopping-cart {
+  grid-column: 3;
+  grid-row: 1;
   justify-self: end;
 }
 
