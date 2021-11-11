@@ -60,6 +60,10 @@
     min-height: 500px;
   }
 
+  .breadcrumbs-tracker {
+    display: none;
+  }
+
   /*Main content 800*/
 
   .home-heading {
