@@ -608,23 +608,129 @@ footer li {
   grid-column: -1/1;
 }
 
-/*checkout main*/
+/*checkout pages main*/
 
 .main-checkout {
   display: flex;
   background-color: aqua;
-  height: 1000px;
+  height: 100%;
 }
 
 .progress-checker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: burlywood;
-  height: 50px;
-  width: 50px;
+  height: 100%;
   margin: 0px;
+}
+
+.progress-line__start {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #34665b;
+}
+
+.progress-line__end {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid #34665b;
+}
+
+.progress-line {
+  content: "";
+  border-left: solid #1c2026 2px;
+  flex: 1;
+  position: relative;
+}
+
+.progress-marker {
+  position: absolute;
+  z-index: 1000;
+  left: -11.5px;
 }
 
 .checkout-content {
   background-color: pink;
-  height: 50px;
+  flex-grow: 1;
+  height: 100%;
   width: 50px;
+}
+
+.checkout-content h1 {
+  font-size: 3rem;
+}
+
+.checkout-content h2 {
+  color: #34665b;
+  font-size: 2rem;
+}
+
+/*checkout content*/
+
+.price-summary,
+.product-summary {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid #1c2026 0.5px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.product-summary {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price-summary {
+  justify-content: space-evenly;
+}
+
+.product-summary__product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-summary__product-info h3,
+.product-summary__product-info p {
+  font-size: 1rem;
+}
+
+.product-summary__product-info h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.product-summary__product-info p {
+  margin: 1px;
+}
+
+.quantifier-wrapper {
+  margin: 10px 0px;
+}
+
+#product-quantifier {
+  width: 2em;
+}
+
+.product-summary__image {
+  width: 130px;
+}
+
+.product-summary__image img {
+  width: 100%;
+  border: solid #1c2026 1px;
+}
+
+.cta-checkout {
+  padding: 40px;
+  background-color: red;
 }
