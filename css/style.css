@@ -73,7 +73,8 @@ nav a,
 .nav-closer,
 nav h2,
 .product-filters a,
-.product-filters h3 {
+.product-filters h3,
+.cta-checkout {
   color: #fff;
 }
 
@@ -101,9 +102,14 @@ nav li a,
 nav li a:hover,
 .cta-main:hover,
 .cta__heading:hover,
+.cta-checkout:hover,
 .product-filters li a:hover {
   background-color: #fff;
   color: #0a3641;
+}
+
+.cta-checkout:hover {
+  border-color: #0a3641;
 }
 
 nav ul,
@@ -178,7 +184,6 @@ h3 {
 
 p {
   font-family: "open sans", Verdana, Tahoma, "Trebuchet MS", Arial, Helvetica;
-  font-weight: lighter;
 }
 
 .marketing-text__wrapper {
@@ -611,18 +616,34 @@ footer li {
 /*checkout pages main*/
 
 .main-checkout {
-  display: flex;
-  background-color: aqua;
+  display: grid;
   height: 100%;
+  justify-content: center;
+}
+
+.main-checkout h1 {
+  grid-column: 2;
+  font-size: 3rem;
+}
+
+.main-checkout h2 {
+  grid-column: 2;
+  grid-row: 2;
+  color: #34665b;
+  font-size: 2rem;
+}
+
+.checkout-heading-text__2 {
+  display: none;
 }
 
 .progress-checker {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: burlywood;
   height: 100%;
   margin: 0px;
+  grid-row: 2/4;
 }
 
 .progress-line__start {
@@ -647,29 +668,14 @@ footer li {
   content: "";
   border-left: solid #1c2026 2px;
   flex: 1;
-  position: relative;
-}
-
-.progress-marker {
-  position: absolute;
-  z-index: 1000;
-  left: -11.5px;
 }
 
 .checkout-content {
-  background-color: pink;
   flex-grow: 1;
   height: 100%;
-  width: 50px;
-}
-
-.checkout-content h1 {
-  font-size: 3rem;
-}
-
-.checkout-content h2 {
-  color: #34665b;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
 }
 
 /*checkout content*/
@@ -691,12 +697,7 @@ footer li {
 
 .price-summary {
   justify-content: space-evenly;
-}
-
-.product-summary__product-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-size: 1rem;
 }
 
 .product-summary__product-info h3,
@@ -730,7 +731,39 @@ footer li {
   border: solid #1c2026 1px;
 }
 
+.price-summary__bold {
+  font-weight: bold;
+}
+
+.price-summary__light {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.price-summary__p-wrapper {
+  margin-top: 20px;
+}
+
+.price-summary__p-wrapper2 {
+  margin-top: 42px;
+}
+
+.price-summary p {
+  margin: 0px;
+}
+
 .cta-checkout {
-  padding: 40px;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  align-self: center;
+  padding: 10px 50px;
+  margin: 10px 5px;
+  background-color: #34665b;
+  border-style: solid;
+  border-color: #0a3641;
+  border-radius: 10px;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
 }

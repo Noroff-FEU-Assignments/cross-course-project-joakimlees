@@ -22,16 +22,18 @@
       <li><a href="/index.html">&LT;&LT; Back to Store</a></li>
     </ul>
     <main class="main-checkout">
+      <h1>Checkout</h1>
+      <div class="checkout-heading-text">
+        <h2>Shopping cart</h2>
+        <h2 class="checkout-heading-text__2">Shipping and Payment information</h2>
+        <h2 class="checkout-heading-text__2">Complete order</h2>
+      </div>
       <figure class="progress-checker">
         <div class="progress-line__start"></div>
-        <div class="progress-line">
-          <input type="checkbox" name="progress-marker" class="progress-marker" id="progress-marker1" />
-        </div>
+        <div class="progress-line"></div>
         <div class="progress-line__end"></div>
       </figure>
       <section class="checkout-content">
-        <h1>Checkout</h1>
-        <h2>Shopping cart</h2>
         <section class="product-summary">
           <div class="product-summary__product-info">
             <h3>Golden Age XxX 3000</h3>
@@ -93,19 +95,31 @@
           </div>
         </section>
         <section class="price-summary">
-          <div>
-            <p>Total products:</p>
-            <p>Discount:</p>
-            <p>shipping:</p>
-            <p>Total:</p>
+          <div class="price-summary__text">
+            <div class="price-summary__p-wrapper">
+              <p>Total products:</p>
+              <p>Discount:</p>
+            </div>
+            <div class="price-summary__p-wrapper2">
+              <p>shipping:</p>
+            </div>
+            <div class="price-summary__p-wrapper2">
+              <p class="price-summary__bold">Total:</p>
+            </div>
           </div>
-          <div>
-            <p>$167,99</p>
-            <p>-$16,799</p>
-            <p>10% on first order</p>
-            <p>$00.00</p>
-            <p>free shipping</p>
-            <p>$151.191</p>
+          <div class="price-summary__numbers">
+            <div class="price-summary__p-wrapper">
+              <p>$167,99</p>
+              <p>-$16,799</p>
+              <p class="price-summary__light">10% on first order</p>
+            </div>
+            <div class="price-summary__p-wrapper">
+              <p>$00.00</p>
+              <p class="price-summary__light">free shipping</p>
+            </div>
+            <div class="price-summary__p-wrapper">
+              <p class="price-summary__bold">$151.191</p>
+            </div>
           </div>
         </section>
         <a class="cta-checkout" href="checkout2.html">CONTINUE TO PAYMENT</a>
