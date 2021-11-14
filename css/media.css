@@ -77,11 +77,6 @@
     font-size: 2rem;
   }
 
-  #product-quantifier {
-    width: 2.5em;
-    height: 2em;
-  }
-
   .product-summary__image {
     width: 275px;
   }
@@ -104,6 +99,26 @@
     padding: 20px 75px;
     font-size: 2rem;
     margin: 0px 10px 40px 10px;
+  }
+
+  /*Checkout form 650*/
+
+  .checkout-form legend {
+    font-size: 2.5rem;
+  }
+
+  .checkout-form label {
+    font-size: 1.5rem;
+  }
+
+  .form__input {
+    font-size: 1.5rem;
+  }
+
+  .cta-checkout__form {
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    padding: 15px 50px;
   }
 }
 
@@ -307,6 +322,14 @@
     flex-direction: column;
   }
 
+  .main-checkout h1 {
+    margin-left: 50px;
+  }
+
+  .h2-checkout__hidden {
+    display: flex;
+  }
+
   .checkout-heading-text {
     display: flex;
     justify-content: space-evenly;
@@ -344,6 +367,17 @@
     border-left: 0px;
   }
 
+  .checkout-heading-text__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-heading-text__wrapper img {
+    display: flex;
+    width: 50px;
+  }
+
   /*checkout content 800*/
 
   .checkout-content {
@@ -368,11 +402,6 @@
     font-size: 1rem;
   }
 
-  #product-quantifier {
-    width: 1.5em;
-    height: 1em;
-  }
-
   .product-summary__image {
     width: 200px;
   }
@@ -394,6 +423,20 @@
     padding: 20px 40px;
     align-self: flex-start;
     margin-top: 50px;
+  }
+
+  /*Checkout form 800*/
+
+  .checkout-form {
+    margin: 50px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .shipping-info {
+    grid-row: 1/-1;
   }
 }
 
@@ -417,16 +460,15 @@
     font-size: 1.5rem;
   }
 
-  #product-quantifier {
-    width: 2em;
-    height: 1.5em;
-  }
-
   .price-summary {
     font-size: 1.5rem;
   }
 
   .cta-checkout {
     font-size: 1.5rem;
+  }
+
+  .price-summary__p-wrapper2 {
+    margin-top: 55px;
   }
 }

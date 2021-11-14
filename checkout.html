@@ -24,9 +24,18 @@
     <main class="main-checkout">
       <h1>Checkout</h1>
       <div class="checkout-heading-text">
-        <h2>Shopping cart</h2>
-        <h2 class="checkout-heading-text__2">Shipping and Payment information</h2>
-        <h2 class="checkout-heading-text__2">Complete order</h2>
+        <div class="checkout-heading-text__wrapper">
+          <h2>Shopping cart</h2>
+          <img src="/icons/Ellipse 22.png" alt="progress check-mark/breadcrumb for shopping-cart unchecked" />
+        </div>
+        <div class="checkout-heading-text__wrapper">
+          <h2 class="checkout-heading-text__2">Shipping and Payment information</h2>
+          <img src="/icons/Ellipse 22.png" alt="progress check-mark/breadcrumb for shipping and payment information unchecked" />
+        </div>
+        <div class="checkout-heading-text__wrapper">
+          <h2 class="checkout-heading-text__2">Complete order</h2>
+          <img src="/icons/Ellipse 22.png" alt="progress check-mark/breadcrumb for order complete order unchecked" />
+        </div>
       </div>
       <figure class="progress-checker">
         <div class="progress-line__start"></div>
@@ -40,19 +49,19 @@
             <p>Color: Golden</p>
             <p>Size: Small</p>
             <div class="quantifier-wrapper">
-              <label for="quantity">Quantity:</label>
-              <input list="quantifier" id="product-quantifier" name="product-quantifier" />
-              <datalist id="quantifier">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-              </datalist>
+              <label for="quantifier">Quantity:</label>
+              <select name="quantifier" id="quantifier">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
             </div>
             <p>Price: $79.00</p>
           </div>
@@ -70,19 +79,19 @@
             <p>Color: Golden</p>
             <p>Size: Small</p>
             <div class="quantifier-wrapper">
-              <label for="quantity">Quantity:</label>
-              <input list="quantifier" id="product-quantifier" name="product-quantifier" />
-              <datalist id="quantifier">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-              </datalist>
+              <label for="quantifier">Quantity:</label>
+              <select name="quantifier" id="quantifier">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
             </div>
             <p>Price: $79.00</p>
           </div>
@@ -122,7 +131,7 @@
             </div>
           </div>
         </section>
-        <a class="cta-checkout" href="checkout2.html">CONTINUE TO PAYMENT</a>
+        <a class="cta-checkout" href="checkout2.html">Continue to payment</a>
       </section>
     </main>
     <footer>
