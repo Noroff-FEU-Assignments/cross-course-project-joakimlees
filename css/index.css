@@ -44,7 +44,8 @@
 
 .home-new_arrivals h2,
 .home-outlet h2 {
-  display: none;
+  visibility: hidden;
+  position: absolute;
 }
 
 .home-heading {
