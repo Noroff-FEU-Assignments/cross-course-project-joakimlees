@@ -798,3 +798,55 @@ footer li {
   font-weight: bold;
   color: #1c2026;
 }
+
+/*checkout complete order*/
+
+.summary-product h3 {
+  font-size: 1.5rem;
+  color: #34665b;
+}
+
+.summary-product p {
+  font-size: 1rem;
+  color: #1c2026;
+  margin: 5px;
+}
+
+.summary-product .summary-product__text-price {
+  font-weight: bold;
+  margin: 40px 5px;
+}
+
+/*order success page*/
+
+.main-success {
+  max-width: 250px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.success-large {
+  width: 80px;
+  align-self: start;
+}
+
+.main-success p a {
+  color: #1c2026;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cta-success:hover {
+  background-color: #0a3641;
+  color: #fff;
+}
+
+.cta-success {
+  width: 150px;
+  background-color: #fff;
+  color: #0a3641;
+  border-color: #0a3641;
+}

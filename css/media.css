@@ -103,7 +103,8 @@
 
   /*Checkout form 650*/
 
-  .checkout-form legend {
+  .checkout-form legend,
+  .summary-product h3 {
     font-size: 2.5rem;
   }
 
@@ -111,7 +112,8 @@
     font-size: 1.5rem;
   }
 
-  .form__input {
+  .form__input,
+  .summary-product p {
     font-size: 1.5rem;
   }
 
@@ -119,6 +121,13 @@
     margin: 10px 0px;
     font-size: 1.5rem;
     padding: 15px 50px;
+  }
+
+  .cta-success {
+    width: 150px;
+    font-size: 1rem;
+    padding: 10px 50px;
+    margin: 10px 5px;
   }
 }
 
@@ -427,7 +436,8 @@
 
   /*Checkout form 800*/
 
-  .checkout-form {
+  .checkout-form,
+  .summary-product {
     margin: 50px 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -437,6 +447,24 @@
 
   .shipping-info {
     grid-row: 1/-1;
+  }
+
+  /*checkout complete order 800*/
+
+  .summary-product__text-product {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .cta-complete-order {
+    padding: 20px 100px;
+  }
+
+  .cta-success {
+    width: 150px;
+    font-size: 1rem;
+    padding: 10px 50px;
+    margin: 10px 5px;
   }
 }
 
@@ -470,5 +498,12 @@
 
   .price-summary__p-wrapper2 {
     margin-top: 55px;
+  }
+
+  .cta-success {
+    width: 150px;
+    font-size: 1rem;
+    padding: 10px 50px;
+    margin: 10px 5px;
   }
 }
