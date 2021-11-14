@@ -129,6 +129,28 @@
     padding: 10px 50px;
     margin: 10px 5px;
   }
+
+  /*product specific 650*/
+
+  .main-golden-age {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+  }
+
+  .golden-age__image {
+    display: block;
+    flex-direction: column;
+  }
+
+  .golden-age__image-selections {
+    flex-direction: row;
+  }
+
+  .cta-add-cart {
+    font-size: 1.5rem;
+    padding: 15px 80px;
+  }
 }
 
 @media (min-width: 800px) {
@@ -465,6 +487,26 @@
     font-size: 1rem;
     padding: 10px 50px;
     margin: 10px 5px;
+  }
+
+  /*product specific 800*/
+
+  .cta-add-cart {
+    font-size: 1.5rem;
+    padding: 15px 80px;
+  }
+
+  .golden-age__information h1 {
+    font-size: 3rem;
+  }
+
+  .golden-age__information h2 {
+    font-size: 2rem;
+  }
+
+  .golden-age__information label,
+  .golden-age__information p {
+    font-size: 1.5rem;
   }
 }
 

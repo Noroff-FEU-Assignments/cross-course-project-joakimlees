@@ -714,7 +714,8 @@ footer li {
   margin-bottom: 10px;
 }
 
-.product-summary__product-info p {
+.product-summary__product-info p,
+.golden-age__information p {
   margin: 1px;
 }
 
@@ -792,7 +793,8 @@ footer li {
   font-weight: bold;
 }
 
-.checkout-form label {
+.checkout-form label,
+.golden-age__information label {
   font-size: 1rem;
   font-family: "open sans";
   font-weight: bold;
@@ -833,7 +835,8 @@ footer li {
   align-self: start;
 }
 
-.main-success p a {
+.main-success p a,
+.product-specific-checkout__wrapper a {
   color: #1c2026;
   font-weight: bold;
   font-style: italic;
@@ -849,4 +852,68 @@ footer li {
   background-color: #fff;
   color: #0a3641;
   border-color: #0a3641;
+}
+
+/*product specific page Golden age*/
+
+.main-golden-age {
+  display: flex;
+  flex-direction: column;
+}
+
+.golden-age__image {
+  display: flex;
+  gap: 5px;
+}
+
+.golden-age__image img {
+  width: 100%;
+  flex: 2;
+}
+
+.golden-age__image-selections {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-specific-checkout__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.golden-age__information h2 {
+  margin: 5px 20px 30px 20px;
+  color: #34665b;
+}
+
+.golden-age__information h1 {
+  margin: 20px 20px 0px 20px;
+  font-size: 2rem;
+}
+
+.golden-age__information p {
+  margin: 0px 20px;
+}
+
+.size-selector,
+.color-selector {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.color-selector {
+  margin-top: 30px;
+}
+
+.size-selector {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.cta-add-cart {
+  margin: 20px;
+  padding: 10px 110px;
 }
