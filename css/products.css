@@ -97,7 +97,7 @@
   font-size: 0.6rem;
   padding: 5px 20px;
   margin-left: 5px;
-  font-family: "open sans";
+  font-family: "open sans", Verdana, Tahoma, "Trebuchet MS", Arial, Helvetica;
   font-weight: bold;
   text-transform: uppercase;
 }
