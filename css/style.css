@@ -152,13 +152,24 @@ nav,
 
 .hamburger-menu__label,
 .shopping-cart {
-  margin: 25px;
   width: 25%;
   max-width: 50px;
 }
 
+.shopping-cart {
+  margin: 25px 25px 25px 0px;
+}
+
+.hamburger-menu__label {
+  margin: 25px;
+}
+
 .shopping-cart__white {
   display: none;
+}
+
+.cart-counter {
+  margin-top: 33px;
 }
 
 .nav-closer {
@@ -258,6 +269,11 @@ nav img,
   display: none;
 }
 
+.shopping-cart-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
 .top-logo,
 .top-logo__desktop {
   width: 100%;
@@ -287,4 +303,10 @@ footer ul {
 
 footer li {
   margin-right: 30px;
+}
+
+/*Ny update*/
+
+.top-logo-ny {
+  grid-column: 2/3;
 }
