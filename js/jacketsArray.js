@@ -1,3 +1,5 @@
+/* 
+
 export const products = [
   {
     id: "0",
@@ -48,3 +50,5 @@ export const products = [
     details: "Lorem ipsum dolor sit amet, per nulla harum te. Ne nec clita pertinacia mnesarchum. Duo nostro saperet cu, sed elitr cotidieque cu, alii pericula sit ex. Nec an aperiri ornatus. Hinc equidem necessitatibus ex eos, ex eos tation tamquam feugiat. Vim id solum quando erroribus, ad qui laudem nullam cetero, mel sanctus consequat comprehensam et. Ius suas quando perpetua ut, per in habeo volutpat intellegam. Pro ne omnis delenit assueverit, ad natum reprehendunt mea, his at iuvaret euismod nostrum.",
   },
 ];
+
+*/
