@@ -79,7 +79,7 @@ git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-joakiml
 
 ## Contributing
 
-For any contributions, make sure to open a pull request so code can be reviewed.
+For any contributions, make sure to open a pull request so that code can be reviewed.
 
 ## Contact
 
