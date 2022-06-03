@@ -1,5 +1,7 @@
 # Noroff - Cross-course project
 
+## Introduction
+
 As the title states, is this a repository to a website, from a cross course project, from my front-end development studies at Noroff - School of Technology and Digital Media.
 
 The website is the result of the different course assignments combined.
@@ -39,7 +41,7 @@ Assignment length 1 week
 ### Interaction Design
 
 For the course assignment in interaction design, I got tasked to make improvements to the (interaction)design, on the site. Utilizing what I further learned about UX/IxD, using html, css and javascript (javascript was a 5 week course we had previous to interaction design, but with a different project for the course assignment).
-[My javascript course assignment repository >>](https://github.com/joakimlees/joakim-lee-sletten-js1-ca)
+Link to: [My javascript course assignment repository >>](https://github.com/joakimlees/joakim-lee-sletten-js1-ca)
 
 What i did was:
 
@@ -50,24 +52,23 @@ What i did was:
 Course length: 4 weeks (with the last week being the course assignment)
 Assignment length: 1 week
 
-## Content management systems (CMS)
+### Content management systems (CMS)
 
-Instead of using the jackets-array.js a REST-API have been made using wordpress. Fetching the api using javascript.
-added try catch blocks for errors and a loading indicator.
+For the CSM course assignment I was tasked to create a REST API for my products using wordpress. Fetching the data from the REST API using javascript. Using query string parameters allowing the user to click on an individual item in the product list and take them to see that product, with the specific data for that product on the page.
 
-The variable names have changes slightly as the api since the structure of this rest api was different from the jackets-array previously made.
-beside that the codes remaind pretty much the same.
+Previously for the site I was using an array I just created in a separate file, using vanilla javascript, for adding "products" (jackets-array.js).
+So all the functionality with javascript was pretty much set.
 
-Since i used local storage and data-attributes in interaction design CA to store and display data/products in the purchase-funnel, updates was not needed to the checkout.js file for everything to still work.
+Course length: 3 weeks (with the last week being the course assignment)
+Assignment length: 1 week
 
-## files which is updated
+## Built with
 
-- details.js
-- products.js
+- HTML
+- CSS
+- Vanilla Javascript
+- Wordpress REST API
 
-(also minor changes (loading indicator) to details.html and store.html).
+## Getting started
 
-## PS
-
-The reason it's not alot of "pushes" to this repo, is because i copied this repo before starting on this submisson. And at the end i just copied the changes made back into this repo. (should probably get more familiar with Git, since i assume thats part of whats that used for).
-So all the pushes throughout this project was made to a similar "working" repo.
+Clone this repository using [This link](https://github.com/Noroff-FEU-Assignments/cross-course-project-joakimlees.git)
