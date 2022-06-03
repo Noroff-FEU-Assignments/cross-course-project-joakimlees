@@ -19,14 +19,13 @@ For the course assignment I was tasked to design a website for a brand called "r
 
 We got provided a logo, but all the images used is royal free/free to use images from the web(like from: unsplash.com).
 
-I also decided the:
+Among other things, I also decided the:
 
-- color theme
-- layout
-- buttons and links
-- fonts
-- copy
-  and so on.
+- Color theme
+- Layout
+- Buttons and links
+- Fonts
+- Copy/text
 
 Course length: 5 weeks (with the last week being the course assignment)
 Assignment length: 1 week
