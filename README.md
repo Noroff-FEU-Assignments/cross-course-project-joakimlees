@@ -71,17 +71,15 @@ Assignment length: 1 week
 
 ## Getting started
 
-Clone this repository using
+Clone this repository by pasting this code in your terminal:
 
 ```
-
-git clone "https://github.com/Noroff-FEU-Assignments/cross-course-project-joakimlees.git"
-
+git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-joakimlees.git
 ```
 
 ## Contributing
 
-You can clone the repository for this
+For any contributions, make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
