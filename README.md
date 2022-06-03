@@ -72,3 +72,13 @@ Assignment length: 1 week
 ## Getting started
 
 Clone this repository using [This link](https://github.com/Noroff-FEU-Assignments/cross-course-project-joakimlees.git)
+
+## Contributing
+
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+[My portfolio Website]()
+
+[My LinkedIn page](https://www.linkedin.com/in/joakim-lee-sletten-14381621a/)
