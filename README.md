@@ -1,13 +1,55 @@
-# CMS-CA
+# Noroff - Cross-course project
 
-This is the CMS CA submission of this repo.
+As the title states, is this a repository to a website, from a cross course project, from my front-end development studies at Noroff - School of Technology and Digital Media.
 
-Previously there have been updates for:
+The website is the result of the different course assignments combined.
 
-- html and css CA
-- interaction design CA.
+The different courses was all first year courses(so far):
 
-## CMS CA changes
+- Design 1
+- Html and Css
+- Interaction Design
+- Content Management systems (CMS)
+
+### Design 1
+
+For the course assignment I was tasked to design a website for a brand called "rainy days", which was selling durable rain jackets, to a medium price.
+
+We got provided a logo, but all the images used is royal free/free to use images from the web(like from: unsplash.com).
+
+I also decided the:
+
+- color theme
+- layout
+- buttons and links
+- fonts
+- copy
+  and so on.
+
+Course length: 5 weeks (with the last week being the course assignment)
+Assignment length: 1 week
+
+### Html and Css
+
+For the course assignment in Html and Css. I got tasked to build out the site with pure Html and Css.
+
+Course length: 5 weeks (with the last week being the course assignment)
+Assignment length 1 week
+
+### Interaction Design
+
+For the course assignment in interaction design, I got tasked to make improvements to the (interaction)design, on the site. Utilizing what I further learned about UX/IxD, using html, css and javascript (javascript was a 5 week course we had previous to interaction design, but with a different project for the course assignment). (Link to my javascript course assignment)
+
+What i did was:
+
+- Updating the add to cart functionality
+- A complete remake of the whole purchased funnel - working checkout steps
+- Javascript validation on the contact form
+
+Course length: 4 weeks (with the last week being the course assignment)
+Assignment length: 1 week
+
+## Content management systems (CMS)
 
 Instead of using the jackets-array.js a REST-API have been made using wordpress. Fetching the api using javascript.
 added try catch blocks for errors and a loading indicator.
