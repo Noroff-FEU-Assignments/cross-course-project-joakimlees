@@ -38,7 +38,7 @@ Assignment length 1 week
 
 ### Interaction Design
 
-For the course assignment in interaction design, I got tasked to make improvements to the (interaction)design, on the site. Utilizing what I further learned about UX/IxD, using html, css and javascript (javascript was a 5 week course we had previous to interaction design, but with a different project for the course assignment). (Link to my javascript course assignment)
+For the course assignment in interaction design, I got tasked to make improvements to the (interaction)design, on the site. Utilizing what I further learned about UX/IxD, using html, css and javascript (javascript was a 5 week course we had previous to interaction design, but with a different project for the course assignment). [My javascript course assignment repository](https://github.com/joakimlees/joakim-lee-sletten-js1-ca)
 
 What i did was:
 
