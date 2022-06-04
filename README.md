@@ -61,6 +61,17 @@ So all the functionality with javascript was pretty much set.
 Course length: 3 weeks (with the last week being the course assignment)
 Assignment length: 1 week
 
+### Improvements
+
+Here I provide a list of some improve one could add to the project:
+
+- Add a sort, filter and working search function for different jackets
+- Write better/DRY javascript for cart and purchase funnel functionality
+- Make a larger and more delicate footer.
+- Add actual color-indicators on the product page, instead of e checkbox
+- Set a background color to make the site look more whole. (on the store page especially, the site might blend to much in with the white space on the sides).
+- redesign the product cards on the store page, to make them suit the rest of the design better.
+
 ## Built with
 
 - HTML
@@ -75,6 +86,14 @@ Clone this repository by pasting this code in your terminal:
 ```
 git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-joakimlees.git
 ```
+
+Or download and open it with [Github Desktop(download for windows)](https://central.github.com/deployments/desktop/desktop/latest/win32)
+
+## Final reflection
+
+Working on a project cross-course have been really interesting. Since you kind of think your "done" with it, at the first delivery. So having to pick up and old project and make improvements is something that kind of gives you an experience on how it is to start working on incomplete projects.
+
+For the second delivery on this project, in the interaction design course, I made a working cart and complete purchase funnel functionality with javascript. I was lacking a bit behind on the deadline for the delivery at this point, so my focus was just to get together something that worked. Which ended up ok. My main take from this part, is that by just letting myself loose and writing something in javascript just for the purpose of it working was a lott of learning for me. Even though I know I could have written some functions for some of the code, instead of just repeating myself. But at this point in my journey, I look at it as good learning, and the most important part is that I know I normally should write more DRY, structure and organized javascript.
 
 ## Contributing
 
